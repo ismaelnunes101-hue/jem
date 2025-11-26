@@ -1,0 +1,45 @@
+# Ignore node modules
+node_modules/
+
+# Ignore build output
+.next/
+out/
+dist/
+build/
+
+# Ignore environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore database files
+*.db
+*.sqlite
+*.sqlite3
+prisma/dev.db
+
+# Ignore PM2 files
+.pm2/
+
+# Ignore certificates
+*.pem
+*.key
+*.crt
